@@ -1,22 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2022-07-18T11:58:37.094Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="KSQAxH8FrVPBTVB4W_0c" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-18T12:33:00.197Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="dXOIxQBkOA_O2Ebv2pEi" version="20.1.1" type="github">
   <diagram id="3yxgdzHpjUtoZ1YvnIb4" name="Page-1">
-    <mxGraphModel dx="2679" dy="9875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3071" dy="10106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="zf3hmA6HVg6shAKCX-4X-1" value="Researcher" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="230" y="1470" width="776" height="360" as="geometry">
+          <mxGeometry x="524" y="1450" width="890" height="310" as="geometry">
             <mxRectangle x="340" y="420" width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zf3hmA6HVg6shAKCX-4X-2" value="- string $firstName;&#xa;- string $lastName;&#xa;- string $patronymic;&#xa;- string $email;&#xa;- int $testsNumber;&#xa;- string $registrationDate;&#xa;- string $lastActivityDate;&#xa;- isdeleted" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zf3hmA6HVg6shAKCX-4X-1" vertex="1">
-          <mxGeometry y="26" width="776" height="114" as="geometry" />
+        <mxCell id="zf3hmA6HVg6shAKCX-4X-2" value="- string $firstName;&#xa;- string $lastName;&#xa;- string $patronymic;&#xa;- string $email;&#xa;- int $testsNumber;&#xa;- string $registrationDate;&#xa;- string $lastActivityDate;&#xa;- bool $isDeleted;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zf3hmA6HVg6shAKCX-4X-1" vertex="1">
+          <mxGeometry y="26" width="890" height="134" as="geometry" />
         </mxCell>
         <mxCell id="zf3hmA6HVg6shAKCX-4X-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zf3hmA6HVg6shAKCX-4X-1" vertex="1">
-          <mxGeometry y="140" width="776" height="10" as="geometry" />
+          <mxGeometry y="160" width="890" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="wGXpvXkCo0cNztCjCJYk-80" value="+ Researcher(string $firstName, string $lastName, string $patronymic, string $email, int $testsNumber, $registrationDate, int $lastActivityDate); &#xa;+ getFirstName(): string;&#xa;+ getLastName(): string;&#xa;+ getPatronymic(): string;&#xa;+ getEmail(): string;&#xa;+ getTestsNumber(): int;&#xa;+ getRegistrationDate(): string;&#xa;+ getLastActivityDate(): string; &#xa;+ change data():&#xa;+ block():" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zf3hmA6HVg6shAKCX-4X-1">
-          <mxGeometry y="150" width="776" height="210" as="geometry" />
+        <mxCell id="wGXpvXkCo0cNztCjCJYk-80" value="+ Researcher(string $firstName, string $lastName, string $patronymic, string $email, int $testsNumber, $registrationDate, int $lastActivityDate, bool $isDeleted); &#xa;+ getFirstName(): string;&#xa;+ getLastName(): string;&#xa;+ getPatronymic(): string;&#xa;+ getEmail(): string;&#xa;+ getTestsNumber(): int;&#xa;+ getRegistrationDate(): string;&#xa;+ getLastActivityDate(): string; &#xa;+ getIsDeleted(): bool;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zf3hmA6HVg6shAKCX-4X-1">
+          <mxGeometry y="170" width="890" height="140" as="geometry" />
         </mxCell>
         <mxCell id="zf3hmA6HVg6shAKCX-4X-21" value="Respondent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="620" y="1142" width="675" height="280" as="geometry">
@@ -4106,33 +4106,8 @@
             <mxPoint x="1136.1319088079413" y="960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wGXpvXkCo0cNztCjCJYk-81" value="Researcher" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="1490" width="776" height="360" as="geometry">
-            <mxRectangle x="340" y="420" width="110" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="wGXpvXkCo0cNztCjCJYk-82" value="- string $firstName;&#xa;- string $lastName;&#xa;- string $patronymic;&#xa;- string $email;&#xa;- int $testsNumber;&#xa;- string $registrationDate;&#xa;- string $lastActivityDate;&#xa;- isdeleted" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wGXpvXkCo0cNztCjCJYk-81">
-          <mxGeometry y="26" width="776" height="114" as="geometry" />
-        </mxCell>
-        <mxCell id="wGXpvXkCo0cNztCjCJYk-83" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="wGXpvXkCo0cNztCjCJYk-81">
-          <mxGeometry y="140" width="776" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="wGXpvXkCo0cNztCjCJYk-84" value="+ Researcher(string $firstName, string $lastName, string $patronymic, string $email, int $testsNumber, $registrationDate, int $lastActivityDate); &#xa;+ getFirstName(): string;&#xa;+ getLastName(): string;&#xa;+ getPatronymic(): string;&#xa;+ getEmail(): string;&#xa;+ getTestsNumber(): int;&#xa;+ getRegistrationDate(): string;&#xa;+ getLastActivityDate(): string; &#xa;+ change data():&#xa;+ block():" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wGXpvXkCo0cNztCjCJYk-81">
-          <mxGeometry y="150" width="776" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="wGXpvXkCo0cNztCjCJYk-85" value="Researcher" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="1850" width="776" height="360" as="geometry">
-            <mxRectangle x="340" y="420" width="110" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="wGXpvXkCo0cNztCjCJYk-86" value="- string $firstName;&#xa;- string $lastName;&#xa;- string $patronymic;&#xa;- string $email;&#xa;- int $testsNumber;&#xa;- string $registrationDate;&#xa;- string $lastActivityDate;&#xa;- isdeleted" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wGXpvXkCo0cNztCjCJYk-85">
-          <mxGeometry y="26" width="776" height="114" as="geometry" />
-        </mxCell>
-        <mxCell id="wGXpvXkCo0cNztCjCJYk-87" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="wGXpvXkCo0cNztCjCJYk-85">
-          <mxGeometry y="140" width="776" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="wGXpvXkCo0cNztCjCJYk-88" value="+ Researcher(string $firstName, string $lastName, string $patronymic, string $email, int $testsNumber, $registrationDate, int $lastActivityDate); &#xa;+ getFirstName(): string;&#xa;+ getLastName(): string;&#xa;+ getPatronymic(): string;&#xa;+ getEmail(): string;&#xa;+ getTestsNumber(): int;&#xa;+ getRegistrationDate(): string;&#xa;+ getLastActivityDate(): string; &#xa;+ change data():&#xa;+ block():" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wGXpvXkCo0cNztCjCJYk-85">
-          <mxGeometry y="150" width="776" height="210" as="geometry" />
+        <mxCell id="wGXpvXkCo0cNztCjCJYk-89" value="$isDeleted is needed us like parameter?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="1620" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
